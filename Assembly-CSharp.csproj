@@ -58,9 +58,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BaseBullet.cs" />
+     <Compile Include="Assets\Scripts\BaseGunControl.cs" />
      <Compile Include="Assets\Scripts\BaseMove.cs" />
      <Compile Include="Assets\Scripts\BaseRotation.cs" />
      <Compile Include="Assets\Scripts\DrawCrossHair.cs" />
+     <Compile Include="Assets\Scripts\ObjectPool.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>H:/Projects/BasicFPSGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

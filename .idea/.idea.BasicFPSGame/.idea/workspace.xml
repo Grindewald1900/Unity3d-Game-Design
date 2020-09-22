@@ -1,33 +1,329 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a6b7ff8-a151-44c8-93d1-3a0c24037abf" name="Default Changelist" comment="" />
+    <list default="true" id="7a6b7ff8-a151-44c8-93d1-3a0c24037abf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_1p_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_1p_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_1p_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_1p_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_3p_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_3p_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_3p_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_3p_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_far_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_far_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_far_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_far_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/AssaultCanon_1p.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/AssaultCanon_1p.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/AssaultCanon_1p_tail.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/AssaultCanon_1p_tail.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/AssaultCanon_3p.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/AssaultCanon_3p.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/AssaultCanon_3p_tail.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/AssaultCanon_3p_tail.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/Minigun_Reload_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/Minigun_Reload_04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Pistol_ClipIn_05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Pistol_ClipIn_05.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_1p_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_1p_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_1p_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_1p_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_1p_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_1p_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_3p_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_3p_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_3p_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_3p_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_3p_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_3p_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_far_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_far_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_far_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_far_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_far_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_far_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_1p_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_1p_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_1p_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_1p_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_1p_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_1p_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_3p_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_3p_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_3p_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_3p_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_3p_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_3p_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_Reload.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_Reload.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_far_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_far_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_far_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_far_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_far_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_far_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_1p_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_1p_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_1p_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_1p_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_1p_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_1p_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_3p_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_3p_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_3p_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_3p_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_3p_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_3p_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_far_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_far_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_far_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_far_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_far_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_far_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Z-Extrem.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Z-Extrem/HeavyLaserLauncher1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Z-Extrem/HeavyLaserLauncher1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BaseBullet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BaseGunControl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UniGit.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UniGit/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UniGit/Editor/UniGit.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UniGit/Editor/UniGit.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UniGit/Editor/UniGit.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UniGit/Editor/UniGit.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UniGit/Editor/UniGitResources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UniGit/Editor/UniGitResources.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UniGit/Editor/UniGitResources.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UniGit/Editor/UniGitResources.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UniGit/Editor/UniGitResources.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UniGit/Editor/UniGitResources.pdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UniGit/Guide.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UniGit/Guide.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UniGit/Readme.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UniGit/Readme.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorSnapSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorSnapSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/CHANGELOG.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/CHANGELOG.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/DEPENDENCIES.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/DEPENDENCIES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/DEPENDENCIES.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/DEPENDENCIES.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/AssemblyInfo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/AssemblyInfo.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Bootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Bootstrap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Bootstrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Bootstrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabAnalytics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabAnalytics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabAnalytics.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabAnalytics.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabHistoryWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabHistoryWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabHistoryWindow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabHistoryWindow.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabToolbarButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabToolbarButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabToolbarButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabToolbarButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabToolbarWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabToolbarWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabToolbarWindow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabToolbarWindow.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Presenters.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Presenters.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Presenters/CollabHistoryPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Presenters/CollabHistoryPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Presenters/CollabHistoryPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Presenters/CollabHistoryPresenter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/BuildStatusButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/BuildStatusButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/BuildStatusButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/BuildStatusButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryDropDown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryDropDown.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryDropDown.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryDropDown.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryDropDownItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryDropDownItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryDropDownItem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryDropDownItem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryItem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryItem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryItemFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryItemFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryItemFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryItemFactory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryRevisionLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryRevisionLine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryRevisionLine.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryRevisionLine.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/HistoryProgressSpinner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/HistoryProgressSpinner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/HistoryProgressSpinner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/HistoryProgressSpinner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/ICollabHistoryItemFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/ICollabHistoryItemFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/ICollabHistoryItemFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/ICollabHistoryItemFactory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/PagedListView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/PagedListView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/PagedListView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/PagedListView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/StatusView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/StatusView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/StatusView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/StatusView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources/Styles.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources/Styles.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources/Styles/CollabHistoryCommon.uss" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources/Styles/CollabHistoryCommon.uss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources/Styles/CollabHistoryCommon.uss.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources/Styles/CollabHistoryCommon.uss.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources/Styles/CollabHistoryDark.uss" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources/Styles/CollabHistoryDark.uss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources/Styles/CollabHistoryDark.uss.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources/Styles/CollabHistoryDark.uss.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources/Styles/CollabHistoryLight.uss" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources/Styles/CollabHistoryLight.uss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources/Styles/CollabHistoryLight.uss.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources/Styles/CollabHistoryLight.uss.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Unity.CollabProxy.Editor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Unity.CollabProxy.Editor.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Unity.CollabProxy.Editor.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Unity.CollabProxy.Editor.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/LICENSE.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/LICENSE.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/README.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/README.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Tests.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Tests.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Tests/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Tests/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Tests/Editor/HistoryTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Tests/Editor/HistoryTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Tests/Editor/HistoryTests.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Tests/Editor/HistoryTests.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Tests/Editor/Unity.CollabProxy.EditorTests.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Tests/Editor/Unity.CollabProxy.EditorTests.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Tests/Editor/Unity.CollabProxy.EditorTests.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Tests/Editor/Unity.CollabProxy.EditorTests.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/package.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/package.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/.gitlab-ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/CHANGELOG.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/CHANGELOG.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/LICENSE.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/LICENSE.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/README.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/README.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/This is a custom build DONT include.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/This is a custom build DONT include.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/This is a custom build DONT include.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/This is a custom build DONT include.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll.mdb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll.mdb.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.pdb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.pdb.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/package.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ext.nunit@1.0.0/package.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.1.4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.1.4/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/CHANGELOG.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/CHANGELOG.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/CONTRIBUTING.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/CONTRIBUTING.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/AssemblyNameProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/AssemblyNameProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/AssemblyNameProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/AssemblyNameProvider.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/FileIO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/FileIO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/FileIO.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/FileIO.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/GUIDGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/GUIDGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/GUIDGenerator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/GUIDGenerator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/ProjectGeneration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/ProjectGeneration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/ProjectGeneration.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/ProjectGeneration.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/ProjectGenerationFlag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/ProjectGenerationFlag.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/ProjectGenerationFlag.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/ProjectGenerationFlag.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/Unity.com.unity.vscode.Editor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/Unity.com.unity.vscode.Editor.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/Unity.com.unity.vscode.Editor.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/Unity.com.unity.vscode.Editor.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/VSCodeDiscovery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/VSCodeDiscovery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/VSCodeDiscovery.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/VSCodeDiscovery.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/VSCodeScriptEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/VSCodeScriptEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/VSCodeScriptEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/VSCodeScriptEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/LICENSE.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/LICENSE.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/package.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.1/package.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB-lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/150f01-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/150f01-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref" beforeDir="false" afterPath="$PROJECT_DIR$/Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe8.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe8.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe9.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/c3/404981a2/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/0c/8ff67625/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/46/39b07108/Physics.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/17/4d41950b/LayerMask.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/1b/751c2bc4/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/be/88dd2676/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2DB13BA0-D523-4322-8AA9-892C408FB49A/ed/88a9c046/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseGunControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseBullet.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/BaseMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseBullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseGunControl.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1hkQ1bAQrWMHCiumYfRLFUz6IcE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -62,6 +358,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600552399786</updated>
       <workItem from="1600552412951" duration="11520000" />
+      <workItem from="1600624004308" duration="8067000" />
     </task>
     <servers />
   </component>
@@ -70,7 +367,25 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1600629606042">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600629606042" />
   </component>
 </project>
