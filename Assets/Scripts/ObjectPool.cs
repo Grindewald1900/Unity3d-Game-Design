@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -29,7 +29,7 @@ public class ObjectPool : MonoBehaviour
 
     public GameObject GetPoolObjects()
     {
-        for(int i = 0; i < poolObjects.Count; i++)
+        for(int i = 0; i < poolBulletAmount; i++)
             if (!poolObjects[i].activeInHierarchy)
                 return poolObjects[i];
         return null;

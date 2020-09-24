@@ -11,7 +11,9 @@
           <e p="BaseGunControl.cs" t="Include" />
           <e p="BaseMove.cs" t="Include" />
           <e p="BaseRotation.cs" t="Include" />
+          <e p="BulletPool.cs" t="Include" />
           <e p="DrawCrossHair.cs" t="Include" />
+          <e p="GenericGameObject.cs" t="Include" />
           <e p="ObjectPool.cs" t="Include" />
         </e>
       </e>

@@ -15,14 +15,16 @@ public class BaseGunControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            GameObject newBullet = ObjectPool.SharedInstance.GetPoolObjects();
-            newBullet.transform.position = transform.position + transform.forward;
-            // newBullet.GetComponent<Rigidbody>().velocity = new Vector3(-1,0,0);
-            newBullet.SetActive(true);
-            audioSource.Play();
+        if (!Input.GetMouseButtonDown(0)) return;
+        // newBullet.transform.rotation = transform.rotation;
+        // newBullet.transform.rotation = transform.rotation;
+        // newBullet.setInit(transform.forward,transform.position);
+        // newBullet.GetComponent<Rigidbody>().velocity = transform.forward * 10;
 
-        }
+        var newBullet = BulletPool.SharedInstance.GetPoolObjects();
+        if(ReferenceEquals(newBullet, null)) return;
+        newBullet.setInit(transform.right * (-1), transform.position + transform.right * (-1));
+        newBullet.setIsActive(true);
+        audioSource.Play();
     }
 }
