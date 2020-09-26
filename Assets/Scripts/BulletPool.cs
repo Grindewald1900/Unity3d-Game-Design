@@ -5,8 +5,11 @@ using UnityEngine;
 
 public class BulletPool : MonoBehaviour
 {
+    /// <summary>
+    /// Initialize some bullets in the begining
+    /// </summary>
     public static BulletPool SharedInstance;
-    public List<BaseBullet> BaseBulletList;
+    public List<BaseBullet> baseBulletList;
     public BaseBullet objectToPool;
     public int poolBulletAmount;
 
@@ -16,28 +19,23 @@ public class BulletPool : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        BaseBulletList = new List<BaseBullet>();
+        baseBulletList = new List<BaseBullet>();
         for (var i = 0; i < poolBulletAmount; i++)
         {
             var bullet = Instantiate(objectToPool);
-            bullet.setIsActive(false);
-            BaseBulletList.Add(bullet);
+            bullet.SetIsActive(false);
+            baseBulletList.Add(bullet);
         }
     }
 
     public BaseBullet GetPoolObjects()
     {
-        for(int i = 0; i < BaseBulletList.Count; i++)
-            if (!BaseBulletList[i].isActiveInHierarchy())
-                return BaseBulletList[i];
-        return null;
-    }
+        foreach (var t in baseBulletList)
+            if (!t.IsActiveInHierarchy())
+                return t;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        return null;
     }
 }

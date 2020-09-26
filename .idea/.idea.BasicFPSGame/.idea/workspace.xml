@@ -19,31 +19,52 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a6b7ff8-a151-44c8-93d1-3a0c24037abf" name="Default Changelist" comment="">
+    <list default="true" id="7a6b7ff8-a151-44c8-93d1-3a0c24037abf" name="Default Changelist" comment="Upload missing codes">
+      <change afterPath="$PROJECT_DIR$/Assets/Material/Ground Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Material/Ground Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Material/Light Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Material/Light Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Material/New Physic Material.physicMaterial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Material/New Physic Material.physicMaterial.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/New Terrain 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/New Terrain 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SightingZoom.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SightingZoom.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/IOTT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/IOTT.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials/IOTT.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials/IOTT.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BulletPool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BulletPool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseBullet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseGunControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseGunControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenericGameObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GenericGameObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/38/38bd7522ac8dce12f1f6705847b6489e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b9/b918da157174c5f1e176426a608ed640" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f2/f29da303389ba8a2d413fff81249e1bc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f3/f3833ee00ad58948fc511e09d63055e5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/63/637cb46cae04827390144c4df2dec7b0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/af/af915ce514f9402bbc51c18145dcab6e" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/ee8bb2-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/ee8bb2-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/d1f6a6-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/d1f6a6-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe9.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,37 +77,43 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/0c/8ff67625/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://H:/Projects/BasicFPSGame/Assets/Scripts/ObjectPool.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/46/39b07108/Physics.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GenericGameObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://H:/Projects/BasicFPSGame/Assets/Scripts/ObjectPool.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/17/4d41950b/LayerMask.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseGunControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseBullet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/c3/404981a2/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/d1/46dc56a7/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/1b/751c2bc4/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/d7/a4a66fbb/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/37/ee59fbd2/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://H:/Projects/BasicFPSGame/Assets/Scripts/ObjectPool.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyUtils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/be/88dd2676/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2DB13BA0-D523-4322-8AA9-892C408FB49A/ed/88a9c046/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/79/55991f87/Camera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/7c/816b7cd9/RaycastHit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletPool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/c3/404981a2/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/819DE1AA-368E-45FA-A4F7-8E26C97C62B0/e1/ea461ebd/GUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/43/85405a58/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/d1/46dc56a7/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/1b/751c2bc4/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/c8/45e42580/ValueType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://H:/Projects/BasicFPSGame/Assets/Scripts/ObjectPool.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BaseMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GenericGameObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BulletPool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BaseBullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseGunControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseZoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SightingZoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseBullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BulletPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyUtils.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs" />
       </list>
     </option>
   </component>
@@ -118,10 +145,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="3768">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="15324">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="3768" />
+      <option name="pid" value="15324" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -139,8 +166,17 @@
       <workItem from="1600552412951" duration="11520000" />
       <workItem from="1600624004308" duration="8067000" />
       <workItem from="1600897853034" duration="5246000" />
-      <workItem from="1600965125993" duration="12711000" />
+      <workItem from="1600965125993" duration="15389000" />
+      <workItem from="1601046248660" duration="25539000" />
     </task>
+    <task id="LOCAL-00001" summary="Upload missing codes">
+      <created>1600988710432</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600988710432</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,40 +199,86 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Upload missing codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload missing codes" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="390" key="GridCell.Tab.0.bottom" timestamp="1600986753863">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="390" key="GridCell.Tab.0.bottom" timestamp="1601076532346">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="390" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600986753863" />
-    <state width="1877" height="390" key="GridCell.Tab.0.center" timestamp="1600986753863">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="390" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601076532346" />
+    <state width="1877" height="390" key="GridCell.Tab.0.center" timestamp="1601076532346">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="390" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600986753863" />
-    <state width="1877" height="390" key="GridCell.Tab.0.left" timestamp="1600986753863">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="390" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601076532346" />
+    <state width="1877" height="390" key="GridCell.Tab.0.left" timestamp="1601076532346">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="390" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600986753863" />
-    <state width="1877" height="390" key="GridCell.Tab.0.right" timestamp="1600986753863">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="390" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601076532346" />
+    <state width="1877" height="390" key="GridCell.Tab.0.right" timestamp="1601076532346">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="390" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600986753863" />
-    <state width="1877" height="390" key="GridCell.Tab.1.bottom" timestamp="1600986761529">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="390" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601076532346" />
+    <state width="1877" height="390" key="GridCell.Tab.1.bottom" timestamp="1601076536435">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="390" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600986761529" />
-    <state width="1877" height="390" key="GridCell.Tab.1.center" timestamp="1600986761529">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="390" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601076536435" />
+    <state width="1877" height="390" key="GridCell.Tab.1.center" timestamp="1601076536435">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="390" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600986761529" />
-    <state width="1877" height="390" key="GridCell.Tab.1.left" timestamp="1600986761528">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="390" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601076536435" />
+    <state width="1877" height="390" key="GridCell.Tab.1.left" timestamp="1601076536435">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="390" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600986761528" />
-    <state width="1877" height="390" key="GridCell.Tab.1.right" timestamp="1600986761529">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="390" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601076536435" />
+    <state width="1877" height="390" key="GridCell.Tab.1.right" timestamp="1601076536435">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="390" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600986761529" />
+    <state width="1877" height="390" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601076536435" />
+    <state width="1877" height="390" key="GridCell.Tab.2.bottom" timestamp="1601076532217">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.2.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601076532217" />
+    <state width="1877" height="390" key="GridCell.Tab.2.center" timestamp="1601076532217">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.2.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601076532217" />
+    <state width="1877" height="390" key="GridCell.Tab.2.left" timestamp="1601076532217">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.2.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601076532217" />
+    <state width="1877" height="390" key="GridCell.Tab.2.right" timestamp="1601076532217">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.2.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601076532217" />
+    <state width="1877" height="390" key="GridCell.Tab.3.bottom" timestamp="1601076532218">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.3.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601076532218" />
+    <state width="1877" height="390" key="GridCell.Tab.3.center" timestamp="1601076532217">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.3.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601076532217" />
+    <state width="1877" height="390" key="GridCell.Tab.3.left" timestamp="1601076532217">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.3.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601076532217" />
+    <state width="1877" height="390" key="GridCell.Tab.3.right" timestamp="1601076532218">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.3.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601076532218" />
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600988719581">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1600988719581" />
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600986611070">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -205,24 +287,5 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600985402170" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/BaseBullet.cs</url>
-          <line>14</line>
-          <properties documentPath="H:\Projects\BasicFPSGame\Assets\Scripts\BaseBullet.cs" initialLine="13">
-            <startOffsets>
-              <option value="373" />
-            </startOffsets>
-            <endOffsets>
-              <option value="402" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

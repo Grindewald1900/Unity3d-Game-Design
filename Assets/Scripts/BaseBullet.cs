@@ -4,39 +4,55 @@ using UnityEngine;
 
 public class BaseBullet : MonoBehaviour
 {
+    /// <summary>
+    /// This class is the basic script for bullets
+    /// </summary>
+    /// <value> _direction: initial direction of the bullet </value>
+    /// <value> _position: initial position of the bullet </value>
+    /// <value> _timeAlive: bullet life time </value>
+    /// <value> BulletSpeed: speed of bullet </value>
     private Vector3 _direction = new Vector3(0,0,0);
     private Vector3 _position = new Vector3(0,0,0);
     private float _timeAlive = 0f;
-    private int _bulletSpeed = 10;
-    
-    // Update is called once per frame
-    void Update()
+    private const int BulletSpeed = 30;
+
+    private void Update()
     {
-        _timeAlive += Time.deltaTime;
-        // Debug.Log("Time:" + transform.position);
-        if (_timeAlive > 3)
+        // Inactivate the bullet after timeout
+        if ((_timeAlive += Time.deltaTime) > 3)
         {
             gameObject.SetActive(false);
             _timeAlive = 0f;
         }
-        transform.position = _position + _direction * (_timeAlive * _bulletSpeed);
-
+        // Bullet movement
+        transform.position = _position + _direction * (_timeAlive * BulletSpeed);
         // Debug.Log(transform.position);
-
     }
 
-    public void setInit(Vector3 direct, Vector3 pos)
+    
+    /// <param name="direct"> Initial direction of the bullet </param>>
+    /// <param name="pos"> Initial position of the bullet </param>>
+    public void SetInit(Vector3 direct, Vector3 pos)
     {
+
         _direction = direct;
         _position = pos;
     }
-
-    public void setIsActive(bool isActive)
+    
+    /// <summary>
+    /// Set bullet status, invoked from other classes
+    /// </summary>
+    /// <param name="isActive">  </param>>
+    public void SetIsActive(bool isActive)
     {
         gameObject.SetActive(isActive);
     }
 
-    public bool isActiveInHierarchy()
+    /// <summary>
+    /// Check whether the GameObject is active in the Scene
+    /// </summary>
+    /// <returns></returns>
+    public bool IsActiveInHierarchy()
     {
         return gameObject.activeInHierarchy;
     }

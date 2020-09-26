@@ -14,7 +14,9 @@
           <e p="BulletPool.cs" t="Include" />
           <e p="DrawCrossHair.cs" t="Include" />
           <e p="GenericGameObject.cs" t="Include" />
+          <e p="MyUtils.cs" t="Include" />
           <e p="ObjectPool.cs" t="Include" />
+          <e p="SightingZoom.cs" t="Include" />
         </e>
       </e>
       <e p="BasicFPSGame.sln" t="IncludeFlat" />
