@@ -20,6 +20,7 @@ public class DrawCrossHair : MonoBehaviour
         _raycastHit = GetIntersectionDistance();
         _crossHairScale = _raycastHit.collider == null ? 0.1f : (float)MyUtils.GetZoomScaleByDistance(_raycastHit.distance);
         // Debug.Log("Scale: " + _crossHairScale);
+        // crosshairImage.color = Color.Lerp(crosshairImage.color, m_CurrentCrosshair.crosshairColor, Time.deltaTime * crosshairUpdateshrpness);
         GUI.DrawTexture(new Rect((Screen.width - texture.width * _crossHairScale) / 2f, (Screen.height - texture.height * _crossHairScale) / 2f, texture.width * _crossHairScale, texture.height * _crossHairScale), texture);
     }
 
