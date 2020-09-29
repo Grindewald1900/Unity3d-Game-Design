@@ -13,6 +13,10 @@
           <e p="BaseRotation.cs" t="Include" />
           <e p="BulletPool.cs" t="Include" />
           <e p="DrawCrossHair.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
+          <e p="EnemyCanvas.cs" t="Include" />
+          <e p="EnemyManager.cs" t="Include" />
+          <e p="EnemyPool.cs" t="Include" />
           <e p="GenericGameObject.cs" t="Include" />
           <e p="MyUtils.cs" t="Include" />
           <e p="ObjectPool.cs" t="Include" />

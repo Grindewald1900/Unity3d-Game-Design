@@ -64,6 +64,10 @@
      <Compile Include="Assets\Scripts\BaseRotation.cs" />
      <Compile Include="Assets\Scripts\BulletPool.cs" />
      <Compile Include="Assets\Scripts\DrawCrossHair.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\EnemyCanvas.cs" />
+     <Compile Include="Assets\Scripts\EnemyManager.cs" />
+     <Compile Include="Assets\Scripts\EnemyPool.cs" />
      <Compile Include="Assets\Scripts\GenericGameObject.cs" />
      <Compile Include="Assets\Scripts\MyUtils.cs" />
      <Compile Include="Assets\Scripts\ObjectPool.cs" />

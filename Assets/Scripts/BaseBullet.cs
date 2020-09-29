@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -29,7 +30,17 @@ public class BaseBullet : MonoBehaviour
         // Debug.Log(transform.position);
     }
 
-    
+    private void OnCollisionEnter(Collision other)
+    {
+        var c = other.collider;
+        var o = other.gameObject;
+        if (!o.name.Contains("Enemy")) return;
+        // Debug.Log("Collision object: " + o.name);
+        var enemyBehavior = o.GetComponent<Enemy>();
+        enemyBehavior.GetAttacked(2f);
+    }
+
+
     /// <param name="direct"> Initial direction of the bullet </param>>
     /// <param name="pos"> Initial position of the bullet </param>>
     public void SetInit(Vector3 direct, Vector3 pos)
