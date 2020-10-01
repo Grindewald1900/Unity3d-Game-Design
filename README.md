@@ -300,7 +300,7 @@ public class EnemyManager : MonoBehaviour
 
 
 
-* **c.weapon (gun sound effects, shooting animation, etc.)**
+* **c. weapon (gun sound effects, shooting animation, etc.)**
 <div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Gun1.png?raw=true" height="60%" width="60%"></div>  <br></br>
 
 <div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/FPSShoot.gif?raw=true" width="60%" height="60%"></div>   <br></br>
