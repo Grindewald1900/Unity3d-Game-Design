@@ -5,42 +5,21 @@ First-person Shooter `(FPS)` ‘Serious Sam’ clone based on `Unity3d`
 * `Yi Ren` (002269013)   
 * `Wentao Lu` (002276355)
 
-#### Folder Structure
-
-- `Assets`: Common resources folder   
--- `Material`: Materials and Physical materials for GameObjects  
--- `Plugins`: Plugin used in Unity3d  
--- `Prefabs`: Template of GameObjects  
--- `Scenes`: Scenes of the game   
--- `Scripts`: C# scripts   
--- `Texture`: Image and sprite resources
-
-
 
 #### Dependency
 - Microsoft [.NET](https://dotnet.microsoft.com/) Framework
 - [Unity3d](https://unity3d.com/cn/get-unity/download)
 - Jetbrains [Rider](https://www.jetbrains.com/rider/)
 
-
-#### Links Related
-- Unity [User Manual](https://docs.unity3d.com/Manual/index.html) (2019.4 LTS)
-- Unity [Asset Store](https://assetstore.unity.com/)
-- Unity [Tutorial](https://learn.unity.com/)
-- FPS [Microgame](https://learn.unity.com/project/fps-template?language=en) demo
-
 #### Video demo
 [Demo - Assignment1](https://youtu.be/zpUa2IEvYa0)  
 
-#### Modeling  
-* Player  
-* Enemy  
-* Environment  
 
 #### Basic functions
 #### (35%) Basic camera control for movement and look.  
 
 <div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/FPSMovement.gif?raw=true" width="60%" height="60%"></div>  
+<br></br>
 
 * a. 15% mouse look – able to look around the scene in XY directions using mouse  
 <details>
@@ -100,6 +79,13 @@ private void Update()
 
 
 #### (35%) crosshair 
+<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Crosshair1.png?raw=true" height="60%" width="60%"></div>  <br></br>
+<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Crosshair2.png?raw=true" height="60%" width="60%"></div>  <br></br>
+<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Crosshair3.png?raw=true" height="60%" width="60%"></div>  <br></br>
+<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Crosshair4.png?raw=true" height="60%" width="60%"></div>  <br></br>
+<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Crosshair5.png?raw=true" height="60%" width="60%"></div>  <br></br>
+<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Crosshair6.png?raw=true" height="60%" width="60%"></div>  <br></br>
+
 
 <div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/FPSCrossHair.gif?raw=true" width="60%" height="60%"></div>  
 
@@ -177,14 +163,28 @@ public Texture2D crossAimed;
 
 
 #### (30%) Single level with gameplay (must be able to shoot enemies in some type of environment)  
-* a. 5% appearance (how good your environment/content looks)
+* a. 5% appearance (how good your environment/content looks)   
+`Player`  
+<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Player1.png?raw=true" height="60%" width="60%"></div>  
+<br></br>
 
+`Enemy`  
+<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Enemy1.png?raw=true" height="60%" width="60%"></div>  
+<br></br>
+
+`Environment`    
+<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Environment1.png?raw=true" height="60%" width="60%"></div>  
+<br></br>
+<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Environment2.png?raw=true" height="60%" width="60%"></div> 
+<br></br>
 
 
 * b. 15% enemy behavior (how the enemy behaves)
-<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/FPSEnemyTrack1.gif?raw=true" width="60%" height="60%"></div>    
+<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/FPSEnemyTrack1.gif?raw=true" width="60%" height="60%"></div>
+<br></br>
 
-<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/FPSEnemyTrack2.gif?raw=true" width="60%" height="60%"></div>  
+<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/FPSEnemyTrack2.gif?raw=true" width="60%" height="60%"></div>
+<br></br>
 
 <details>
 <summary>Code</summary>
@@ -300,9 +300,11 @@ public class EnemyManager : MonoBehaviour
 
 
 * c. 15% weapon (gun sound effects, shooting animation, etc.)
-<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/FPSShoot.gif?raw=true" width="60%" height="60%"></div>   
+<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Gun1.png?raw=true" height="60%" width="60%"></div>  <br></br>
 
-<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/FPSZoom.gif?raw=true" width="60%" height="60%"></div>  
+<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/FPSShoot.gif?raw=true" width="60%" height="60%"></div>   <br></br>
+
+<div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/FPSZoom.gif?raw=true" width="60%" height="60%"></div>  <br></br>
 
 
 
