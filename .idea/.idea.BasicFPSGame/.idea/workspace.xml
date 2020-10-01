@@ -19,45 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a6b7ff8-a151-44c8-93d1-3a0c24037abf" name="Default Changelist" comment="Readme update">
-      <change afterPath="$PROJECT_DIR$/Assets/Material/Enemy Material 0.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/Enemy Material 0.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/Enemy Material 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/Enemy Material 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/Enemy Material 2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/Enemy Material 2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/Enemy Material 3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/Enemy Material 3.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/Enemy Material 4.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/Enemy Material 4.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyCanvas.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyPool.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="7a6b7ff8-a151-44c8-93d1-3a0c24037abf" name="Default Changelist" comment="Add basic Enemy AI">
+      <change afterPath="$PROJECT_DIR$/Unity.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseBullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/32/32f7be149367410af4aaf0f744046ec6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3a/3aa7080b3d2e10afb3bdc809b5ba4a2b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a2/a209ce2dc476a4a331cc282f67e216b3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bc/bcc172fac2fcd710d5b709d9cf9eaa14" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/ee8bb2-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/ee8bb2-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/d1f6a6-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/d1f6a6-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +87,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GenericGameObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseGunControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseZoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SightingZoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletPool.cs" />
@@ -122,8 +97,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseBullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyPool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs" />
       </list>
     </option>
@@ -183,7 +159,9 @@
       <workItem from="1601092532097" duration="1663000" />
       <workItem from="1601214630732" duration="6534000" />
       <workItem from="1601308319493" duration="4366000" />
-      <workItem from="1601315426011" duration="19684000" />
+      <workItem from="1601315426011" duration="21070000" />
+      <workItem from="1601433471722" duration="3924000" />
+      <workItem from="1601475823715" duration="1341000" />
     </task>
     <task id="LOCAL-00001" summary="Upload missing codes">
       <created>1600988710432</created>
@@ -206,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601094114578</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add basic Enemy AI">
+      <created>1601343028573</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601343028574</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +217,8 @@
     <MESSAGE value="Upload missing codes" />
     <MESSAGE value="1.Change crosshair scale according to distance.&#10;2.Gun sight(Click right button to open sight, scroll wheel to zoom in and out)" />
     <MESSAGE value="Readme update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme update" />
+    <MESSAGE value="Add basic Enemy AI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add basic Enemy AI" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1877" height="253" key="GridCell.Tab.0.bottom" timestamp="1601092442259">
@@ -311,14 +297,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="715" y="218" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601315706403" />
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601094125169">
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601343042574">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601094125169" />
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601343042574" />
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600986611070">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600986611070" />
+    <state x="1920" y="0" width="1661" height="1066" key="dock-window-1" timestamp="1601524264859">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1920" y="0" width="1661" height="1066" key="dock-window-1/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601524264859" />
     <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1601325071355">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

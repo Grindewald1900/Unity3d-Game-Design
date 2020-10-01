@@ -5,7 +5,7 @@ using UnityEngine;
 public class BaseRotation : MonoBehaviour
 {
     public Transform player;
-    private const float MouseSensitive = 300f;
+    private const float MouseSensitive = 500f;
     private float _xRotation;
 
     // Update is called once per frame

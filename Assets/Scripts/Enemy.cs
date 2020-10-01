@@ -32,7 +32,7 @@ public class Enemy : MonoBehaviour
     {
         if (!_isAttacked) return;
         MoveTowardsPlayer();
-        // transform.rotation = _initRotation;
+        transform.rotation = _initRotation;
     }
     
     public void GetAttacked(float damage)

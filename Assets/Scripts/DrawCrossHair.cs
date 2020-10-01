@@ -51,7 +51,7 @@ public class DrawCrossHair : MonoBehaviour
         GetIntersectionDistance();
     }
 
-    private RaycastHit GetIntersectionDistance()
+    private RaycastHit  GetIntersectionDistance()
     {
         var position = _transform.position;
         var ray = new Ray(position, _transform.forward);
