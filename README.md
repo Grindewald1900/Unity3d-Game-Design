@@ -1,27 +1,26 @@
-### CS512 Assignment 1
+## CS512 Assignment 1
 First-person Shooter `(FPS)` ‘Serious Sam’ clone based on `Unity3d`
 
-#### Group Members:
-* `Yi Ren` (002269013)   
-* `Wentao Lu` (002276355)
+### Group Members:
+`Yi Ren` (002269013)    `Wentao Lu` (002276355)
 
 
-#### Dependency
+### Dependency
 - Microsoft [.NET](https://dotnet.microsoft.com/) Framework
 - [Unity3d](https://unity3d.com/cn/get-unity/download)
 - Jetbrains [Rider](https://www.jetbrains.com/rider/)
 
-#### Video demo
+### Video demo
 [Demo - Assignment1](https://youtu.be/zpUa2IEvYa0)  
 
 
-#### Basic functions
-#### (35%) Basic camera control for movement and look.  
-
+### Basic functions
+### Part 1 - Basic camera control for movement and look.  
+In this part, we invoked `Input.GetAxis()` function to get mouse movement and keyboard input, therefore, we can implement camera rotation and player movements according to system input.
 <div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/FPSMovement.gif?raw=true" width="60%" height="60%"></div>  
 <br></br>
 
-* a. 15% mouse look – able to look around the scene in XY directions using mouse  
+* **a. mouse look – able to look around the scene in XY directions using mouse**  
 <details>
 <summary>Code</summary>
   
@@ -37,7 +36,7 @@ private void Update()
 ```
 </details>
 
-* b. 15% WASD keyboard move – able to move in XZ plane using keypad**  
+* **b. 15% WASD keyboard move – able to move in XZ plane using keypad**  
 <details>
 <summary>Code</summary>
 
@@ -56,7 +55,7 @@ private void Update()
 ```
 </details>
 
-* c. 5% Spacebar jump (with gravity) – pressing spacebar gives small boost in y-direction, gravity pulls back
+* **c. 5% Spacebar jump (with gravity) – pressing spacebar gives small boost in y-direction, gravity pulls back**
 <details>
 <summary>Code</summary>
 
@@ -78,7 +77,8 @@ private void Update()
 
 
 
-#### (35%) crosshair 
+###  Part 2 - crosshair 
+In this part, we draw the crosshair at the center of screen with 2d `textures(Sprite)`, then `Physics.Raycast()` was used to aquire the intersection point information(collide name and distance). In this way, we can draw crosshair of different size and color based on the distance and object type it points to.  
 <div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Crosshair1.png?raw=true" height="60%" width="60%"></div>  <br></br>
 <div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Crosshair2.png?raw=true" height="60%" width="60%"></div>  <br></br>
 <div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Crosshair3.png?raw=true" height="60%" width="60%"></div>  <br></br>
@@ -89,7 +89,7 @@ private void Update()
 
 <div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/FPSCrossHair.gif?raw=true" width="60%" height="60%"></div>  
 
-* a. 10% visible at all time (does not get occluded by objects)  
+* **a. visible at all time (does not get occluded by objects)**    
 <details>
 <summary>Code</summary>
 
@@ -104,7 +104,7 @@ GUI.Label(new Rect(Screen.width / 20f, Screen.height / 20f, Screen.width / 10f, 
 </details>
 
 
-* b. 10% cross-shaped (see image above)  
+* **b. cross-shaped (see image above)**    
 <details>
 <summary>Code</summary>
 
@@ -115,7 +115,7 @@ public Texture2D crossAimed;
 </details>
 
 
-* c. 5% changes color when over enemy  
+* **c. changes color when over enemy**  
 <details>
 <summary>Code</summary>
 
@@ -133,7 +133,7 @@ public Texture2D crossAimed;
 </details>
 
 
-* d. 10% changes distance from camera based on where object it points to is located (see video)  
+* **d. changes distance from camera based on where object it points to is located (see video)**  
 <details>
 <summary>Code</summary>
 
@@ -162,8 +162,9 @@ public Texture2D crossAimed;
 
 
 
-#### (30%) Single level with gameplay (must be able to shoot enemies in some type of environment)  
-* a. 5% appearance (how good your environment/content looks)   
+###  Part 1 - Single level with gameplay (must be able to shoot enemies in some type of environment)  
+In this part, we implemented a simple AI for enemy. For every 5 secs, a new enemy will be initialized at the rebirth point. When attacked, HP of enemy decreases according to the damage of bullets. Also, enemy would be destroyed if HP equal or less than 0. To make player feel more challenging, we made enemy move to players after initialized, so player will be surrounded by enemies unless he/she kills enemies efficiently. For the gun part, player is allowed to use both left and right button of mouse. When left button clicked, the gun will fire. When player hold the right button, he/she is allowed to zoom in or out the camera by scrolling the mouse wheel.  
+* **a. appearance (how good your environment/content looks)**   
 `Player`  
 <div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Player1.png?raw=true" height="60%" width="60%"></div>  
 <br></br>
@@ -179,7 +180,7 @@ public Texture2D crossAimed;
 <br></br>
 
 
-* b. 15% enemy behavior (how the enemy behaves)
+* **b. enemy behavior (how the enemy behaves)**
 <div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/FPSEnemyTrack1.gif?raw=true" width="60%" height="60%"></div>
 <br></br>
 
@@ -299,7 +300,7 @@ public class EnemyManager : MonoBehaviour
 
 
 
-* c. 15% weapon (gun sound effects, shooting animation, etc.)
+* **c.weapon (gun sound effects, shooting animation, etc.)**
 <div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Gun1.png?raw=true" height="60%" width="60%"></div>  <br></br>
 
 <div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/FPSShoot.gif?raw=true" width="60%" height="60%"></div>   <br></br>
