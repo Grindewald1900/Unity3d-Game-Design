@@ -7,7 +7,8 @@ using UnityEngine;
 public class DrawCrossHair : MonoBehaviour
 {
     public static DrawCrossHair SharedInstance;
-    public Texture2D texture;
+    public Texture2D crossNormal;
+    public Texture2D crossAimed;
     private Transform _transform;
     private RaycastHit _raycastHit;
     private float _crossHairScale;
@@ -30,6 +31,7 @@ public class DrawCrossHair : MonoBehaviour
         _colliderName = _raycastHit.collider == null ? "None" : _raycastHit.collider.name;
         var styleHint = new GUIStyle {fontSize = 20};
         var styleScore = new GUIStyle {fontSize = 40};
+        Texture2D crossTexture;
         styleScore.normal.textColor = Color.white;
 
         // Debug.Log("Scale: " + _crossHairScale);
@@ -37,12 +39,16 @@ public class DrawCrossHair : MonoBehaviour
         if (_colliderName.Contains("Enemy"))
         {
             styleHint.normal.textColor = Color.red;
-            GUI.Label(new Rect((Screen.width + texture.width * _crossHairScale + 10) / 2f, Screen.height * 0.5f - 40, 100, 80), "Enemy" + "\n" + _distance , styleHint);
+            crossTexture = crossAimed;
         }else {
             styleHint.normal.textColor = Color.white;
-            GUI.DrawTexture(new Rect((Screen.width - texture.width * _crossHairScale) / 2f, (Screen.height - texture.height * _crossHairScale) / 2f, texture.width * _crossHairScale, texture.height * _crossHairScale), texture);
-            GUI.Label(new Rect((Screen.width + texture.width * _crossHairScale + 10) / 2f, Screen.height * 0.5f - 40, 100, 80), _colliderName + "\n" + _distance , styleHint);
+            crossTexture = crossNormal;
         }
+        // Draw crosshair (center of screen)
+        GUI.DrawTexture(new Rect((Screen.width - crossTexture.width * _crossHairScale) / 2f, (Screen.height - crossTexture.height * _crossHairScale) / 2f, crossTexture.width * _crossHairScale, crossTexture.height * _crossHairScale), crossTexture);
+        // Draw object name label (to right of crosshair)
+        GUI.Label(new Rect((Screen.width + crossTexture.width * _crossHairScale + 10) / 2f, Screen.height * 0.5f - 40, 100, 80), "Enemy" + "\n" + _distance , styleHint);
+        // Draw score label (top left of screen)
         GUI.Label(new Rect(Screen.width / 20f, Screen.height / 20f, Screen.width / 10f, Screen.width / 10f),"Your Score: " + _score, styleScore);
     }
 

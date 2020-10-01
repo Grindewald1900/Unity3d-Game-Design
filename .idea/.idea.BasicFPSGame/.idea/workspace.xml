@@ -19,21 +19,167 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a6b7ff8-a151-44c8-93d1-3a0c24037abf" name="Default Changelist" comment="Add basic Enemy AI">
-      <change afterPath="$PROJECT_DIR$/Unity.gitignore" afterDir="false" />
+    <list default="true" id="7a6b7ff8-a151-44c8-93d1-3a0c24037abf" name="Default Changelist" comment="Add .gitignore">
+      <change afterPath="$PROJECT_DIR$/Assets/Audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Bomb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Bomb.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact Grenade.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact Grenade.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Concrete.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Concrete.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Dirt.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Dirt.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Glass.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Glass.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Grass.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Grass.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Metal.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Metal.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Sand.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Sand.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Snow.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Snow.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Stones.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Stones.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Wood.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Wood.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw10.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw4.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw5.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw6.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw7.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw8.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw9.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade10.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade10Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade10Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade1Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade1Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade2Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade2Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade3Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade3Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade4.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade4Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade4Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade5.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade5Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade5Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade6.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade6Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade6Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade7.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade7Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade7Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade8.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade8Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade8Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade9.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade9Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade9Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BaseScripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BaseScripts/BaseBullet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BaseScripts/BaseBullet.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BaseScripts/BaseMove.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BaseScripts/BaseMove.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BaseScripts/BaseRotation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BaseScripts/BaseRotation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyCanvas.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyCanvas.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/BaseGunControl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/BaseGunControl.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/SightingZoom.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/SightingZoom.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/BulletPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/BulletPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/DrawCrossHair.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/DrawCrossHair.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/EnemyManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/EnemyManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/EnemyPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/EnemyPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/MyUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/MyUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/Crosshair_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/Crosshair_red.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseBullet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseBullet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseGunControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseGunControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseMove.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseMove.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletPool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyCanvas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyPool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyPool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenericGameObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MyUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SightingZoom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SightingZoom.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/ee8bb2-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/ee8bb2-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe8.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe8.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe9.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,36 +195,26 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/819DE1AA-368E-45FA-A4F7-8E26C97C62B0/2e/b2dfa9f0/GUIStyle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/0c/8ff67625/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/46/39b07108/Physics.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GenericGameObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/17/4d41950b/LayerMask.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/cf/6776a463/Time.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseGunControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseBullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BC2876E8-FF0B-42A2-A2A1-1B51F2B23C8A/51/13b7f1d8/AudioSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/d7/a4a66fbb/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Editors/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Slider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/37/ee59fbd2/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19D8D8C6-D3BE-4965-A648-3448197D0639/9e/1b675d2d/Font.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyUtils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/be/88dd2676/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2DB13BA0-D523-4322-8AA9-892C408FB49A/ed/88a9c046/Input.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/79/55991f87/Camera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/7c/816b7cd9/RaycastHit.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/8c/fae1028a/Quaternion.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyCanvas.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/c3/404981a2/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/819DE1AA-368E-45FA-A4F7-8E26C97C62B0/e1/ea461ebd/GUI.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/43/85405a58/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Editors/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Selectable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/d1/46dc56a7/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/1b/751c2bc4/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/c1/4c3b854a/CultureInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/c8/45e42580/ValueType.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/41/9e0feadf/Color.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -101,6 +237,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DrawCrossHair.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/DrawCrossHair.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/BaseGunControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" />
       </list>
     </option>
   </component>
@@ -161,7 +300,8 @@
       <workItem from="1601308319493" duration="4366000" />
       <workItem from="1601315426011" duration="21070000" />
       <workItem from="1601433471722" duration="3924000" />
-      <workItem from="1601475823715" duration="1341000" />
+      <workItem from="1601475823715" duration="2141000" />
+      <workItem from="1601563604764" duration="6253000" />
     </task>
     <task id="LOCAL-00001" summary="Upload missing codes">
       <created>1600988710432</created>
@@ -191,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601343028574</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add .gitignore">
+      <created>1601524286221</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601524286221</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +365,8 @@
     <MESSAGE value="1.Change crosshair scale according to distance.&#10;2.Gun sight(Click right button to open sight, scroll wheel to zoom in and out)" />
     <MESSAGE value="Readme update" />
     <MESSAGE value="Add basic Enemy AI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add basic Enemy AI" />
+    <MESSAGE value="Add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1877" height="253" key="GridCell.Tab.0.bottom" timestamp="1601092442259">
@@ -297,18 +445,20 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="715" y="218" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601315706403" />
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601343042574">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601524463552">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601524463552" />
     <state x="2472" y="273" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601343042574" />
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600986611070">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600986611070" />
-    <state x="1920" y="0" width="1661" height="1066" key="dock-window-1" timestamp="1601524264859">
+    <state x="1920" y="0" width="1661" height="1066" key="dock-window-1" timestamp="1601564211052">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1920" y="0" width="1661" height="1066" key="dock-window-1/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601524264859" />
+    <state x="1920" y="0" width="1661" height="1066" key="dock-window-1/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601564211052" />
     <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1601325071355">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

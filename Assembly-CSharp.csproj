@@ -58,20 +58,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BaseBullet.cs" />
-     <Compile Include="Assets\Scripts\BaseGunControl.cs" />
-     <Compile Include="Assets\Scripts\BaseMove.cs" />
-     <Compile Include="Assets\Scripts\BaseRotation.cs" />
-     <Compile Include="Assets\Scripts\BulletPool.cs" />
-     <Compile Include="Assets\Scripts\DrawCrossHair.cs" />
-     <Compile Include="Assets\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\EnemyCanvas.cs" />
-     <Compile Include="Assets\Scripts\EnemyManager.cs" />
-     <Compile Include="Assets\Scripts\EnemyPool.cs" />
-     <Compile Include="Assets\Scripts\GenericGameObject.cs" />
-     <Compile Include="Assets\Scripts\MyUtils.cs" />
-     <Compile Include="Assets\Scripts\ObjectPool.cs" />
-     <Compile Include="Assets\Scripts\SightingZoom.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseBullet.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseMove.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseRotation.cs" />
+     <Compile Include="Assets\Scripts\EnemyScripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\EnemyScripts\EnemyCanvas.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\BaseGunControl.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\SightingZoom.cs" />
+     <Compile Include="Assets\Scripts\Utils\BulletPool.cs" />
+     <Compile Include="Assets\Scripts\Utils\DrawCrossHair.cs" />
+     <Compile Include="Assets\Scripts\Utils\EnemyManager.cs" />
+     <Compile Include="Assets\Scripts\Utils\EnemyPool.cs" />
+     <Compile Include="Assets\Scripts\Utils\MyUtils.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>H:/Projects/BasicFPSGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

@@ -5,25 +5,24 @@ using UnityEngine;
 
 public class BaseGunControl : MonoBehaviour
 {
-    public AudioSource audioSource;
+    public AudioSource shootAudio;
     private Transform _transform;
     private Camera _mainCamera;
     private Camera _aimCamera;
 
     private void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        shootAudio = GetComponent<AudioSource>();
         _transform = transform;
         _mainCamera = FindCameraByName("Main Camera");
         _aimCamera = FindCameraByName("Aim Camera");
-
         _aimCamera.enabled = false;
 
         // _transform.rotation = _transform.parent.rotation;
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
@@ -36,7 +35,7 @@ public class BaseGunControl : MonoBehaviour
             if (ReferenceEquals(newBullet, null)) return;
             newBullet.SetInit(transform.right * (-1), _transform.position + _transform.right * (-1));
             newBullet.SetIsActive(true);
-            audioSource.Play();
+            shootAudio.Play();
         }
         if (Input.GetMouseButtonDown(1))
         {

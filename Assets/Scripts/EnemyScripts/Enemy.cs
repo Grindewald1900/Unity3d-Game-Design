@@ -10,8 +10,10 @@ public class Enemy : MonoBehaviour
 {
     [FormerlySerializedAs("Slider")] public Slider slider;
     public GameObject player;
+    public GameObject audioEffect;
     public Text textHealth;
     public Canvas canvas;
+    public AudioSource destroyAudio;
     private Rigidbody _rigidbody;
     private float _healthPoint = 100f;
     private const float MoveSpeed = 2f;
@@ -23,6 +25,8 @@ public class Enemy : MonoBehaviour
     {
         player = GameObject.Find("Player");
         _rigidbody = gameObject.GetComponent<Rigidbody>();
+        audioEffect = GameObject.Find("AudioEffect");
+        destroyAudio = audioEffect.GetComponent<AudioSource>();
         ResetEnemy();
         ResetCanvasRotation();
     }
@@ -38,7 +42,7 @@ public class Enemy : MonoBehaviour
     public void GetAttacked(float damage)
     {
         _isAttacked = true;
-        _healthPoint -= Random.Range(damage, damage * 1.5f);
+        _healthPoint -= Random.Range(damage, damage * 0.5f);
         slider.value = _healthPoint;
         textHealth.text = (int)_healthPoint + " / " + slider.maxValue;
 
@@ -47,12 +51,21 @@ public class Enemy : MonoBehaviour
         if (_healthPoint <= 0)
         {
             Debug.Log("HP:"+_healthPoint);
-            if(gameObject.activeInHierarchy) DrawCrossHair.SharedInstance.AddScore(1);
+            
+            destroyAudio.Play();
+            if(gameObject.activeInHierarchy) 
+                DrawCrossHair.SharedInstance.AddScore(1);
             gameObject.SetActive(false);
+            // Invoke("InactiveEnemy",1f);
         }
         _rigidbody.velocity = Vector3.zero;
         
         // Invoke(nameof(ResetRotation), 2f);
+    }
+
+    private void InactiveEnemy()
+    {
+        gameObject.SetActive(false);
     }
 
     private void MoveTowardsPlayer()
