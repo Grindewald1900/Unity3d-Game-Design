@@ -1,12 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class EnemyCanvas : MonoBehaviour
+namespace EnemyScripts
 {
-    // Update is called once per frame
-    private void Update()
+    public class EnemyCanvas : MonoBehaviour
     {
-        transform.rotation = Quaternion.identity;
+        // Update is called once per frame
+        private void Update()
+        {
+            transform.rotation = Quaternion.identity;
+        }
     }
 }

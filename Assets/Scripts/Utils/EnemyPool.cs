@@ -1,37 +1,37 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
+using EnemyScripts;
 using UnityEngine;
 
-public class EnemyPool : MonoBehaviour
+namespace Utils
 {
-    public static EnemyPool SharedInstance;
-    public List<Enemy> enemyList;
-    public Enemy enemyToPool;
-    public int poolBulletAmount;
-    // Start is called before the first frame update
-    private void Awake()
+    public class EnemyPool : MonoBehaviour
     {
-        SharedInstance = this;
-    }
-
-    // Start is called before the first frame update
-    private void Start()
-    {
-        enemyList = new List<Enemy>();
-        for (var i = 0; i < poolBulletAmount; i++)
+        public static EnemyPool SharedInstance;
+        public List<Enemy> enemyList;
+        public Enemy enemyToPool;
+        public int poolBulletAmount;
+        // Start is called before the first frame update
+        private void Awake()
         {
-            var enemy = Instantiate(enemyToPool);
-            enemy.SetIsActive(false);
-            enemyList.Add(enemy);
+            SharedInstance = this;
         }
-    }
-  
-    public Enemy GetNewEnemy()
-    {
-        foreach (var t in enemyList)
-            if (!t.IsActiveInHierarchy())
-                return t;
 
-        return null;
+        // Start is called before the first frame update
+        private void Start()
+        {
+            enemyList = new List<Enemy>();
+            for (var i = 0; i < poolBulletAmount; i++)
+            {
+                var enemy = Instantiate(enemyToPool);
+                enemy.SetIsActive(false);
+                enemyList.Add(enemy);
+            }
+        }
+  
+        public Enemy GetNewEnemy()
+        {
+            return enemyList.FirstOrDefault(t => !t.IsActiveInHierarchy());
+        }
     }
 }

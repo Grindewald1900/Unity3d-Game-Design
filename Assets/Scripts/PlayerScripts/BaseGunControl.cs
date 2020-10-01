@@ -1,62 +1,55 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class BaseGunControl : MonoBehaviour
+namespace PlayerScripts
 {
-    public AudioSource shootAudio;
-    private Transform _transform;
-    private Camera _mainCamera;
-    private Camera _aimCamera;
-
-    private void Start()
+    public class BaseGunControl : MonoBehaviour
     {
-        shootAudio = GetComponent<AudioSource>();
-        _transform = transform;
-        _mainCamera = FindCameraByName("Main Camera");
-        _aimCamera = FindCameraByName("Aim Camera");
-        _aimCamera.enabled = false;
+        public AudioSource shootAudio;
+        private Transform _transform;
+        private Camera _mainCamera;
+        private Camera _aimCamera;
 
-        // _transform.rotation = _transform.parent.rotation;
-    }
-
-    // Update is called once per frame
-    private void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
+        private void Start()
         {
-            // newBullet.transform.rotation = transform.rotation;
-            // newBullet.transform.rotation = transform.rotation;
-            // newBullet.setInit(transform.forward,transform.position);
-            // newBullet.GetComponent<Rigidbody>().velocity = transform.forward * 10;
+            shootAudio = GetComponent<AudioSource>();
+            _transform = transform;
+            _mainCamera = FindCameraByName("Main Camera");
+            _aimCamera = FindCameraByName("Aim Camera");
+            _aimCamera.enabled = false;
 
-            var newBullet = BulletPool.SharedInstance.GetPoolObjects();
-            if (ReferenceEquals(newBullet, null)) return;
-            newBullet.SetInit(transform.right * (-1), _transform.position + _transform.right * (-1));
-            newBullet.SetIsActive(true);
-            shootAudio.Play();
-        }
-        if (Input.GetMouseButtonDown(1))
-        {
-            _aimCamera.enabled = true;
-            _mainCamera.enabled = false;
-
+            // _transform.rotation = _transform.parent.rotation;
         }
 
-        if (Input.GetMouseButtonUp(1))
+        // Update is called once per frame
+        private void Update()
         {
+            if (Input.GetMouseButtonDown(0))
+            {
+                var newBullet = BulletPool.SharedInstance.GetPoolObjects();
+                if (ReferenceEquals(newBullet, null)) return;
+                newBullet.SetInit(transform.right * (-1), _transform.position + _transform.right * (-1));
+                newBullet.SetIsActive(true);
+                shootAudio.Play();
+            }
+            if (Input.GetMouseButtonDown(1))
+            {
+                _aimCamera.enabled = true;
+                _mainCamera.enabled = false;
+
+            }
+
+            if (!Input.GetMouseButtonUp(1)) return;
             _mainCamera.enabled = true;
             _aimCamera.enabled = false;
         }
-    }
 
-    private static Camera FindCameraByName(string name)
-    {
-        foreach (var c in Camera.allCameras)
+        private static Camera FindCameraByName(string name)
         {
-            if (c.name == name) return c;
+            foreach (var c in Camera.allCameras)
+            {
+                if (c.name == name) return c;
+            }
+            return Camera.current;
         }
-        return Camera.current;
     }
 }
