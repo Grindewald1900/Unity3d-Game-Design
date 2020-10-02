@@ -1,4 +1,4 @@
-## CS512 Assignment 1
+## CS 512 Assignment 1
 First-person Shooter `(FPS)` ‘Serious Sam’ clone based on `Unity3d`
 
 ### Group Members:
@@ -11,7 +11,7 @@ First-person Shooter `(FPS)` ‘Serious Sam’ clone based on `Unity3d`
 - Jetbrains [Rider](https://www.jetbrains.com/rider/)
 
 ### Video demo
-[Demo - Assignment1](https://youtu.be/zpUa2IEvYa0)  
+Please check [Demo - Assignment1](https://youtu.be/zpUa2IEvYa0)  for more information.  
 
 
 ### Basic functions
@@ -162,7 +162,7 @@ public Texture2D crossAimed;
 
 
 
-###  Part 1 - Single level with gameplay (must be able to shoot enemies in some type of environment)  
+###  Part 3 - Single level with gameplay (must be able to shoot enemies in some type of environment)  
 In this part, we implemented a simple AI for enemy. For every 5 secs, a new enemy will be initialized at the rebirth point. When attacked, HP of enemy decreases according to the damage of bullets. Also, enemy would be destroyed if HP equal or less than 0. To make player feel more challenging, we made enemy move to players after initialized, so player will be surrounded by enemies unless he/she kills enemies efficiently. For the gun part, player is allowed to use both left and right button of mouse. When left button clicked, the gun will fire. When player hold the right button, he/she is allowed to zoom in or out the camera by scrolling the mouse wheel.  
 * **a. appearance (how good your environment/content looks)**   
 `Player`  
