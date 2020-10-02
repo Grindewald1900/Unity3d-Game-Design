@@ -4,16 +4,18 @@ First-person Shooter `(FPS)` ‘Serious Sam’ clone based on `Unity3d`
 ### Group Members:
 `Yi Ren` (002269013)    `Wentao Lu` (002276355)
 
+-------------------------------
 
 ### Dependency
 - Microsoft [.NET](https://dotnet.microsoft.com/) Framework
 - [Unity3d](https://unity3d.com/cn/get-unity/download)
 - Jetbrains [Rider](https://www.jetbrains.com/rider/)
+-------------------------------
 
 ### Video demo
 Please check [Demo - Assignment1](https://youtu.be/zpUa2IEvYa0)  for more information.  
 
-
+-------------------------------
 ### Basic functions
 ### Part 1 - Basic camera control for movement and look.  
 In this part, we invoked `Input.GetAxis()` function to get mouse movement and keyboard input, therefore, we can implement camera rotation and player movements according to system input.
@@ -76,7 +78,7 @@ private void Update()
 
 
 
-
+-------------------------------
 ###  Part 2 - crosshair 
 In this part, we draw the crosshair at the center of screen with 2d `textures(Sprite)`, then `Physics.Raycast()` was used to aquire the intersection point information(collide name and distance). In this way, we can draw crosshair of different size and color based on the distance and object type it points to.  
 <div align=center><img src="https://github.com/Grindewald1900/General-notes/blob/master/Image/Game/Crosshair1.png?raw=true" height="60%" width="60%"></div>  <br></br>
@@ -161,7 +163,7 @@ public Texture2D crossAimed;
 
 
 
-
+-------------------------------
 ###  Part 3 - Single level with gameplay (must be able to shoot enemies in some type of environment)  
 In this part, we implemented a simple AI for enemy. For every 5 secs, a new enemy will be initialized at the rebirth point. When attacked, HP of enemy decreases according to the damage of bullets. Also, enemy would be destroyed if HP equal or less than 0. To make player feel more challenging, we made enemy move to players after initialized, so player will be surrounded by enemies unless he/she kills enemies efficiently. For the gun part, player is allowed to use both left and right button of mouse. When left button clicked, the gun will fire. When player hold the right button, he/she is allowed to zoom in or out the camera by scrolling the mouse wheel.  
 * **a. appearance (how good your environment/content looks)**   
