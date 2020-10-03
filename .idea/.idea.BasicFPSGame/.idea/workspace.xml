@@ -19,22 +19,233 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a6b7ff8-a151-44c8-93d1-3a0c24037abf" name="Default Changelist" comment="1. Add cross-hair texture&#10;2. Add enemy sound-effect">
+    <list default="true" id="7a6b7ff8-a151-44c8-93d1-3a0c24037abf" name="Default Changelist" comment="Classify scripts and add namespace">
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/BasicFPSScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/BasicFPSScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/BogGoblinScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/BogGoblinScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrains.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrains/FPS Main Terrain.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrains/FPS Main Terrain.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrains/New Terrain 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrains/New Terrain 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrains/New Terrain 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrains/New Terrain 2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_Yi_Ren &amp;&amp; Wentao_Lu/BaseBullet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_Yi_Ren &amp;&amp; Wentao_Lu/BaseGunControl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_Yi_Ren &amp;&amp; Wentao_Lu/BaseMove.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_Yi_Ren &amp;&amp; Wentao_Lu/BaseRotation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_Yi_Ren &amp;&amp; Wentao_Lu/BulletPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_Yi_Ren &amp;&amp; Wentao_Lu/DrawCrossHair.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_Yi_Ren &amp;&amp; Wentao_Lu/Enemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_Yi_Ren &amp;&amp; Wentao_Lu/EnemyCanvas.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_Yi_Ren &amp;&amp; Wentao_Lu/EnemyManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_Yi_Ren &amp;&amp; Wentao_Lu/EnemyPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_Yi_Ren &amp;&amp; Wentao_Lu/MyUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_Yi_Ren &amp;&amp; Wentao_Lu/SightingZoom.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseScripts/BaseBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseScripts/BaseBullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseScripts/BaseMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseScripts/BaseMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseScripts/BaseRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseScripts/BaseRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyCanvas.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/BaseGunControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/BaseGunControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/SightingZoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/SightingZoom.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact Grenade.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact Grenade.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Concrete.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Concrete.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Dirt.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Dirt.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Glass.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Glass.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Grass.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Grass.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Metal.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Metal.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Sand.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Sand.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Snow.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Snow.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Stones.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Stones.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Wood.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Wood.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw10.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw10.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw4.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw5.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw5.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw6.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw6.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw7.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw7.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw8.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw8.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw9.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw9.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade10.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade10.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade10Short.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade10Short.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade1Short.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade1Short.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade2Short.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade2Short.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade3Short.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade3Short.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade4.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade4Short.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade4Short.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade5.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade5.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade5Short.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade5Short.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade6.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade6.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade6Short.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade6Short.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade7.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade7.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade7Short.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade7Short.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade8.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade8.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade8Short.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade8Short.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade9.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade9.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade9Short.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade9Short.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_1p_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_1p_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_1p_02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_1p_02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_3p_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_3p_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_3p_02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_3p_02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_far_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_far_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_far_02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/AssaultRifles/AutoGun_far_02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/AssaultCanon_1p.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/AssaultCanon_1p.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/AssaultCanon_1p_tail.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/AssaultCanon_1p_tail.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/AssaultCanon_3p.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/AssaultCanon_3p.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/AssaultCanon_3p_tail.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/AssaultCanon_3p_tail.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/Minigun_Reload_04.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Miniguns_loop/Minigun_Reload_04.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Pistol_ClipIn_05.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Pistol_ClipIn_05.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_1p_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_1p_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_1p_02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_1p_02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_1p_03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_1p_03.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_3p_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_3p_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_3p_02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_3p_02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_3p_03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_3p_03.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_far_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_far_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_far_02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_far_02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_far_03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Pistols/Zapper_far_03.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_1p_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_1p_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_1p_02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_1p_02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_1p_03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_1p_03.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_3p_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_3p_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_3p_02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_3p_02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_3p_03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_3p_03.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_Reload.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_Reload.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_far_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_far_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_far_02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_far_02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_far_03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Shotguns/JackHammer_far_03.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_1p_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_1p_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_1p_02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_1p_02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_1p_03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_1p_03.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_3p_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_3p_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_3p_02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_3p_02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_3p_03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_3p_03.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_far_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_far_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_far_02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_far_02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_far_03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/SniperRifles/AntiMaterialRifle_far_03.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Z-Extrem.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Z-Extrem/HeavyLaserLauncher1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostApocalypseGunsDemo/Z-Extrem/HeavyLaserLauncher1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/DrawCrossHair.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/DrawCrossHair.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/EnemyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/EnemyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/EnemyPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/EnemyPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/MyUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/MyUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref" beforeDir="false" afterPath="$PROJECT_DIR$/Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe8.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe8.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe9.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,13 +305,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils/EnemyManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils/EnemyPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/BaseGunControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/DrawCrossHair.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils/MyUtils.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/SightingZoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyCanvas.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseScripts/BaseRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseScripts/BaseMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/DrawCrossHair.cs" />
       </list>
     </option>
   </component>
@@ -162,7 +373,8 @@
       <workItem from="1601315426011" duration="21070000" />
       <workItem from="1601433471722" duration="3924000" />
       <workItem from="1601475823715" duration="2141000" />
-      <workItem from="1601563604764" duration="6595000" />
+      <workItem from="1601563604764" duration="12859000" />
+      <workItem from="1601754126009" duration="1237000" />
     </task>
     <task id="LOCAL-00001" summary="Upload missing codes">
       <created>1600988710432</created>
@@ -206,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601572951742</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Classify scripts and add namespace">
+      <created>1601573308114</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601573308114</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +454,8 @@
     <MESSAGE value="Add basic Enemy AI" />
     <MESSAGE value="Add .gitignore" />
     <MESSAGE value="1. Add cross-hair texture&#10;2. Add enemy sound-effect" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Add cross-hair texture&#10;2. Add enemy sound-effect" />
+    <MESSAGE value="Classify scripts and add namespace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classify scripts and add namespace" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1877" height="253" key="GridCell.Tab.0.bottom" timestamp="1601092442259">
@@ -314,11 +534,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="715" y="218" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601315706403" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601524463552">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601573334543">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="273" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601524463552" />
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601343042574" />
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601573334543" />
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600986611070">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
