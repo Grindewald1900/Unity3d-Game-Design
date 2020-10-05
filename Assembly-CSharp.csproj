@@ -58,13 +58,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BaseScripts\BaseBullet.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseMove.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseRotation.cs" />
-     <Compile Include="Assets\Scripts\EnemyScripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\EnemyScripts\EnemyCanvas.cs" />
-     <Compile Include="Assets\Scripts\PlayerScripts\BaseGunControl.cs" />
-     <Compile Include="Assets\Scripts\PlayerScripts\SightingZoom.cs" />
+     <Compile Include="Assets\Scripts\FPS\BaseScripts\BaseBullet.cs" />
+     <Compile Include="Assets\Scripts\FPS\BaseScripts\BaseMove.cs" />
+     <Compile Include="Assets\Scripts\FPS\BaseScripts\BaseRotation.cs" />
+     <Compile Include="Assets\Scripts\FPS\EnemyScripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\FPS\EnemyScripts\EnemyCanvas.cs" />
+     <Compile Include="Assets\Scripts\FPS\PlayerScripts\BaseGunControl.cs" />
+     <Compile Include="Assets\Scripts\FPS\PlayerScripts\SightingZoom.cs" />
+     <Compile Include="Assets\Scripts\Goblin\PlayerScripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Utils\BulletPool.cs" />
      <Compile Include="Assets\Scripts\Utils\DrawCrossHair.cs" />
      <Compile Include="Assets\Scripts\Utils\EnemyManager.cs" />
@@ -96,6 +97,12 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>H:/Projects/BasicFPSGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>H:/Projects/BasicFPSGame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>H:/Projects/BasicFPSGame/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>H:/Editors/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
