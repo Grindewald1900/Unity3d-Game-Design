@@ -71,8 +71,12 @@
      <Compile Include="Assets\Scripts\Utils\EnemyManager.cs" />
      <Compile Include="Assets\Scripts\Utils\EnemyPool.cs" />
      <Compile Include="Assets\Scripts\Utils\MyUtils.cs" />
+     <None Include="Assets\Fantasy Chess RPG Character - Arthur\readme.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>H:/Projects/BasicFPSGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>H:/Projects/BasicFPSGame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>H:/Projects/BasicFPSGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -92,17 +96,14 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>H:/Projects/BasicFPSGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>H:/Projects/BasicFPSGame/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>H:/Projects/BasicFPSGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>H:/Projects/BasicFPSGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Cinemachine">
- <HintPath>H:/Projects/BasicFPSGame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>H:/Projects/BasicFPSGame/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>H:/Editors/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
