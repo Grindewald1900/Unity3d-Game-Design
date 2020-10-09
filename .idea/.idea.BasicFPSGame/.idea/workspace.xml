@@ -19,219 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a6b7ff8-a151-44c8-93d1-3a0c24037abf" name="Default Changelist" comment="3rd player controller">
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_askill_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_askill_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_attack_01_1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_attack_01_1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_attack_01_2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_attack_01_2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_pskill_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_pskill_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_pskill_03_1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_pskill_03_1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_pskill_03_2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_pskill_03_2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/animation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/animation/fx_hr_arthur_askill_01.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/animation/fx_hr_arthur_askill_01.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/animation/fx_hr_arthur_askill_01.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/animation/fx_hr_arthur_askill_01.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_arthur_shield.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_arthur_shield.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_aura_16.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_aura_16.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_aura_circle_07b.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_aura_circle_07b.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_broken_decal.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_broken_decal.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_flare_02.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_flare_02.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_flare_sheet_01.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_flare_sheet_01.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_hit02_y.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_hit02_y.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_light_decal.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_light_decal.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_line_1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_line_1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_ray_hit.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_ray_hit.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_spiral_05.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_spiral_05.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_trail_sheet_02b.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_trail_sheet_02b.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_weapon_tail_03.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_g_weapon_tail_03.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_mask_01.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_mask_01.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_weapon_tail_10.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/material/fx_weapon_tail_10.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/mesh.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/mesh/fx_arthur_crossray.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/mesh/fx_arthur_crossray.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/mesh/fx_arthur_sheild.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/mesh/fx_arthur_sheild.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/mesh/fx_cone_02.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/mesh/fx_cone_02.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/mesh/fx_cross_outside.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/mesh/fx_cross_outside.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/mesh/fx_sphere_half_0.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/mesh/fx_sphere_half_0.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_arthur_shield.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_arthur_shield.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_aura_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_aura_16.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_flare_sheet_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_flare_sheet_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_hit02_y.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_hit02_y.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_light_decal.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_light_decal.PNG.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_line_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_line_1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_ray_hit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_ray_hit.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_spiral_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_spiral_05.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_trail_sheet_02b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_trail_sheet_02b.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_weapon_tail_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_weapon_tail_03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_weapon_tail_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_g_weapon_tail_10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_mask_01.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/FX/texture/fx_mask_01.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/Image.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/Image/ui_icon_hero_arthur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/Image/ui_icon_hero_arthur.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/Scenes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/Scenes/arthur.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/Scenes/arthur.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/animator.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/animator/arthur.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/animator/arthur.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/materials/arthur_01.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/materials/arthur_01.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/models/arthur_01.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/models/arthur_01.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/models/arthur_active_01.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/models/arthur_active_01.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/models/arthur_attack_01.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/models/arthur_attack_01.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/models/arthur_dead_01.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/models/arthur_dead_01.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/models/arthur_idle_01.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/models/arthur_idle_01.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/models/arthur_passive_01.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/models/arthur_passive_01.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/models/arthur_walk_01.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/models/arthur_walk_01.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/prefaps.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/prefaps/Directional light.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/prefaps/Directional light.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/prefaps/Main Camera.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/prefaps/Main Camera.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/prefaps/arthur_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/prefaps/arthur_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/readme.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/textures/arthur_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fantasy Chess RPG Character - Arthur/textures/arthur_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Idle.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Idle.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Jump.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Jump.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Run.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@RunBackwards.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@RunBackwards.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Sprint.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/BasicMotions@Walk.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/MyController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/AnimationControllers/MyController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle01 - Idle02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle01 - Idle02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle02 - Idle01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle02 - Idle01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Jump01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Jump01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Run01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Run01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@RunBackwards01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@RunBackwards01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Sprint01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Sprint01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Walk01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Walk01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Basic Motions Pack - Scene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Basic Motions Pack - Scene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Materials/Basic Motions Material.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Materials/Basic Motions Material.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Models/Basic Motions Dummy.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Models/Basic Motions Dummy.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/Basic Motions Dummy - Idle.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/Basic Motions Dummy - Idle.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/Basic Motions Dummy - Jump.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/Basic Motions Dummy - Jump.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/Basic Motions Dummy - Run Backwards.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/Basic Motions Dummy - Run Backwards.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/Basic Motions Dummy - Run.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/Basic Motions Dummy - Run.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/Basic Motions Dummy - Sprint.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/Basic Motions Dummy - Sprint.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/Basic Motions Dummy - Walk.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Prefabs/Basic Motions Dummy - Walk.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Textures/BasicMotionsTexture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Textures/BasicMotionsTexture.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/CampusMap Material.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/CampusMap Material.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/map1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/map1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="7a6b7ff8-a151-44c8-93d1-3a0c24037abf" name="Default Changelist" comment="Map and humanoid model">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicFPSGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BogGoblinScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BogGoblinScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Goblin/PlayerScripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Goblin/PlayerScripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle01 - Idle02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kevin Iglesias/Basic Motions Pack/Animations/BasicMotions@Idle01 - Idle02.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref" beforeDir="false" afterPath="$PROJECT_DIR$/Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe10.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe8.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe8.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe9.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -366,7 +164,8 @@
       <workItem from="1601754126009" duration="2026000" />
       <workItem from="1601834222145" duration="5685000" />
       <workItem from="1601867171873" duration="1298000" />
-      <workItem from="1601917174457" duration="1108000" />
+      <workItem from="1601917174457" duration="2461000" />
+      <workItem from="1602118780590" duration="1285000" />
     </task>
     <task id="LOCAL-00001" summary="Upload missing codes">
       <created>1600988710432</created>
@@ -431,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601867197290</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Map and humanoid model">
+      <created>1601921963380</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601921963380</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +269,8 @@
     <MESSAGE value="Classify scripts and add namespace" />
     <MESSAGE value="Initialize Bog-Goblin Game" />
     <MESSAGE value="3rd player controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="3rd player controller" />
+    <MESSAGE value="Map and humanoid model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Map and humanoid model" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1877" height="253" key="GridCell.Tab.0.bottom" timestamp="1601092442259">
@@ -542,10 +349,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="715" y="218" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601315706403" />
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601867263554">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601921976355">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601757089270" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601921976355" />
     <state x="2472" y="273" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601867263554" />
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600986611070">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -556,10 +363,10 @@
     </state>
     <state x="1920" y="0" width="1661" height="1066" key="dock-window-1/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601524264859" />
     <state x="1920" y="0" width="1661" height="1066" key="dock-window-1/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601564211052" />
-    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1601325071355">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1602118865214">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600985402170" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602118865214" />
     <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601325071355" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
