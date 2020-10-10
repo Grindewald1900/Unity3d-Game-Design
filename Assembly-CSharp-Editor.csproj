@@ -58,6 +58,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BrokenVector\LowPolyBrickHouses\Editor\ModelCustomizerInspector.cs" />
      <Compile Include="Assets\ModularBuildingsFramework\Scripts\Decorators\Editor\MaterialRandomizerItemDrawer.cs" />
      <Compile Include="Assets\ModularBuildingsFramework\Scripts\Editor\EditorMenu.cs" />
      <Compile Include="Assets\ModularBuildingsFramework\Scripts\Editor\Editors\StandardBoxBuildingEditor.cs" />

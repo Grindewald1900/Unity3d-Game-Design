@@ -58,6 +58,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BrokenVector\LowPolyBrickHouses\Scripts\ModelCustomizer.cs" />
      <Compile Include="Assets\ModularBuildingsFramework\Demo\Scripts\CameraController.cs" />
      <Compile Include="Assets\ModularBuildingsFramework\Demo\Scripts\Demo.cs" />
      <Compile Include="Assets\ModularBuildingsFramework\Demo\Scripts\DemoUI.cs" />
@@ -128,6 +129,7 @@
      <None Include="Assets\BrokenVector\LowPolyShaders\Shaders\LowPolyUnlitShader.shader" />
      <None Include="Assets\BrokenVector\LowPolyShaders\Shaders\LowPolyPBRShader.shader" />
      <None Include="Assets\Low Poly Buildings Lite\ReadMe.txt" />
+     <None Include="Assets\BrokenVector\LowPolyBrickHouses\Shaders\FoliageShader.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>H:/Projects/BasicFPSGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
