@@ -62,7 +62,7 @@ MeshRenderer:
   - {fileID: 2100000, guid: d9a8dfbfb1cfe3243b2dd8d457f1e925, type: 2}
   - {fileID: 2100000, guid: bbebed51b6ac0cf4ea2120dad564a322, type: 2}
   - {fileID: 2100000, guid: ea9a6459d3b53d64ba67bb1a3a6cb24b, type: 2}
-  - {fileID: 2100000, guid: d2c9b5d8770343f4898fa99726176b2c, type: 2}
+  - {fileID: 2100000, guid: c6a21a8fb58f47f499530eb9946cb771, type: 2}
   - {fileID: 2100000, guid: 553914bf4b1ff4d4c8b728f60bf78dc9, type: 2}
   - {fileID: 2100000, guid: e8f724cd1538273409ea6a4aa9e1bd89, type: 2}
   - {fileID: 2100000, guid: 1a879ccb2fe0df24fb4ad8302cc21531, type: 2}
