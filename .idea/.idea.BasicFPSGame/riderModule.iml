@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RIDER_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../..">
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/APIUpdater" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/Artifacts" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/PackageCache/com.unity.cinemachine@2.3.4" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/PackageCache/com.unity.collab-proxy@1.2.16/Tests" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/PackageCache/com.unity.ext.nunit@1.0.0/net35" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/PackageCache/com.unity.ide.rider@1.1.4/Rider" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/PackageCache/com.unity.textmeshpro@2.1.1/Editor Resources" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/PackageCache/com.unity.textmeshpro@2.1.1/Package Resources" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/PackageCache/com.unity.textmeshpro@2.1.1/Tests" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/PackageCache/com.unity.timeline@1.2.16/Editor" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/PackageCache/com.unity.timeline@1.2.16/Runtime" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/ScriptAssemblies" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/ShaderCache" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/StateCache" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Library/UIElements" />
-    </content>
+    <content url="file://$MODULE_DIR$/../.." />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
