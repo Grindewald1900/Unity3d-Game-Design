@@ -10,13 +10,12 @@ namespace Goblin.PlayerScripts
         private float _speed;
         private float _turnSmoothTime;
         private float _currentVelocity;
-
         private static readonly int Walk = Animator.StringToHash("walk");
-
+        
         // Start is called before the first frame update
         private void Start()
         {
-            _speed = 5f;
+            _speed = 8f;
             _turnSmoothTime = 0.1f;
         }
 
@@ -37,7 +36,12 @@ namespace Goblin.PlayerScripts
             // Gradually changes an angle given in degrees towards a desired goal angle over time.
             var angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref _currentVelocity, _turnSmoothTime);
             var moveDirection = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
-
+            // if (!playerAnimator.GetBool(Walk))
+            // {
+            //     playerAnimator.SetBool(Walk,true);
+            //     Debug.Log("walk");
+            // }
+            
             playerAnimator.SetBool(Walk,true);
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
             thirdPersonController.Move(moveDirection.normalized * (_speed * Time.deltaTime));
