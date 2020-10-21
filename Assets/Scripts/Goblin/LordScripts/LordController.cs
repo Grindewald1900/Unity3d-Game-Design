@@ -16,6 +16,10 @@ public class LordController : MonoBehaviour
     private float _range;
     private static readonly int Grating = Animator.StringToHash("grating");
     private static readonly int Talk = Animator.StringToHash("talk");
+    private bool _setGreeting = false;
+    private bool _isAccept = false;
+    private bool _isFinished = false;
+    private string _conversation;
 
     private void Start()
     {
@@ -23,22 +27,44 @@ public class LordController : MonoBehaviour
         // text = gameObject.GetComponent<Text>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // // Update is called once per frame
+    // private void OnGUI()
+    // {
+    //     GUI.Label(new Rect(Screen.width / 10f, Screen.height/ 12f, Screen.width/1.5f, Screen.height/ 4f), "_conversation" );
+    //
+    // }
 
     private void FixedUpdate()
     {
         _range = Vector3.Distance(transform.position, player.transform.position);
-        lordAnimator.SetBool(Grating, !(_range > 30));
+        // lordAnimator.SetBool(Grating, !(_range > 50));
 
-        if (_range < 10)
+        if (_range < 20)
         {
-            DrawTextUtils.SharedInstance.SetContent("Lord Goldbloom: " + "Greetings human!");
-            lordAnimator.SetBool(Talk, true);
-            // text.text = "Gratings, human!";
+            if (!_setGreeting)
+            {
+                MainCanvas.SharedInstance.OnShowConversation("Lord Goldbloom:\n Greetings human!" + "\nThe Bishops Bog Goblin, which lives behind the Athletics center, has been terrorizing " 
+                    + "students and must be destroyed.");
+
+                lordAnimator.SetBool(Talk, true);
+                _setGreeting = true;
+            }
+            //
+            // if (_isAccept)
+            // {
+            //     MainCanvas.SharedInstance.OnShowConversation("Lord Goldbloom:\n " + "How about the Goblin, have you killed it?");
+            // }
+
+            if (_isFinished)
+            {
+                MainCanvas.SharedInstance.OnShowConversation("Lord Goldbloom:\n " + "Well done, warrior! Here's your reward!");
+            }
+            
+        }
+
+        if (_range > 20 && _setGreeting)
+        {
+            _setGreeting = false;
         }
         /*Lord rotate to player */
         // if (!(_range < 30)) return;
